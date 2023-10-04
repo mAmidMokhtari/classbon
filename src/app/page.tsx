@@ -1,3 +1,9 @@
+import Image from 'next/image'
+
 export default function Home() {
-  return <div className="text-purple-600">React application architecture</div>;
+  return (
+   <>
+     <div className='text-5xl '>React Application Architecture</div>
+   </>
+  )
 }
